@@ -24,10 +24,10 @@ export default function RootLayout({
     <html
       lang='en'
       className={cn(
-        'bg-white text-slate-900 antialiased light',
+        ' bg-neo-greyLight1 text-slate-900 antialiased light',
         inter.className
       )}>
-      <body className='min-h-screen pt-12 bg-slate-50 antialiased'>
+      <body className='min-h-screen pt-12 bg-neo-greyLight1 antialiased'>
         <Providers>
           {/* @ts-expect-error Server Component */}
           <Navbar />

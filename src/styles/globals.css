@@ -34,6 +34,25 @@
     --ring: 215 20.2% 65.1%;
 
     --radius: 0.5rem;
+
+    /* neumorphic colors */
+    --primary-light: hsl(214, 100%, 77%);
+    --primary-100: hsl(246, 96%, 68%);
+    --primary-dark: hsl(261, 89%, 49%);
+    --primary-grad: linear-gradient(hsl(246, 96%, 68%), hsl(261, 89%, 49%))
+
+    --white: #ffffff;
+    --greyLight-1: hsl(215, 46%, 93%);
+    --greyLight-14: hsl(214, 27%, 83%);
+    --greyLight-2: hsl(225, 39%, 85%);
+    --greyLight-3: hsl(224, 41%, 82%);
+    --greyDark: hsl(223, 35%, 71%);
+
+    --shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),
+      -0.2rem -0.2rem 0.5rem var(--white);
+
+    --innerShadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2),
+      inset -0.2rem -0.2rem 0.5rem var(--white);
   }
 
   .dark {
@@ -76,6 +95,6 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: 'rlig' 1, 'calt' 1;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
 }

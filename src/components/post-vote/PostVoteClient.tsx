@@ -84,9 +84,10 @@ const PostVoteClient = ({
         onClick={() => vote('UP')}
         size='sm'
         variant='ghost'
-        aria-label='upvote'>
+        aria-label='upvote' className='shadow-innerShadow'>
+          
         <ArrowBigUp
-          className={cn('h-5 w-5 text-zinc-700', {
+          className={cn('h-5 w-5 text-zinc-700 ', {
             'text-emerald-500 fill-emerald-500': currentVote === 'UP',
           })}
         />
@@ -101,10 +102,11 @@ const PostVoteClient = ({
       <Button
         onClick={() => vote('DOWN')}
         size='sm'
+        variant='ghost'
         className={cn({
           'text-emerald-500': currentVote === 'DOWN',
-        })}
-        variant='ghost'
+        }, "shadow-innerShadow")}
+        
         aria-label='downvote'>
         <ArrowBigDown
           className={cn('h-5 w-5 text-zinc-700', {
