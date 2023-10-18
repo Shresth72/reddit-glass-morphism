@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { RefObject, useEffect } from 'react'
 
 type Event = MouseEvent | TouchEvent
