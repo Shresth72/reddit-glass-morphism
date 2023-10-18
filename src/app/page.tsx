@@ -4,7 +4,6 @@ import { buttonVariants } from "@/components/ui/Button";
 import { getAuthSession } from "@/lib/auth";
 import { Home as HomeIcon } from "lucide-react";
 import Link from "next/link";
-import { variant } from "../../../../Contribution/mantine/src/mantine-styles/src/theme/functions/fns/variant/variant";
 
 export const dynamic = "force-dynamic";
 export const fetchCache = "force-no-store";
